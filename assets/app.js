@@ -8,5 +8,3 @@ function formFor(id){const drawer=document.querySelector('.drawer');drawer.inner
 document.querySelector('#show').addEventListener('click',products);
 function routeInfo(){alert('Route-based tolls need origin, destination, axle/weight and operator-specific tariff data. Connect an authorised route-tariff API before enabling payment for these products.')}
 document.querySelector('#language').onclick=()=>alert('Languages: English, German, French, Italian, Spanish, Portuguese, Dutch, Polish, Czech, Slovak, Hungarian, Slovenian, Croatian. Automatic browser detection can be connected to the translation dictionary.');
-document.querySelector('.tripHotspot')?.addEventListener('click',()=>document.querySelector('#buy')?.scrollIntoView({behavior:'smooth'}));
-document.querySelector('.popularHotspot')?.addEventListener('click',()=>products());
